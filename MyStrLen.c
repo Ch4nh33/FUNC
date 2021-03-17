@@ -5,10 +5,11 @@ size_t strlen(const char *str);
 
 int main(void)
 { 
-    char buf[10] ="hello";
+    char buf[10] ={0, };
+    fgets(buf,10,stdin);
     size_t len =0;
     len = strlen(buf);
-    printf("len = %d",len);
+    printf("len = %d",len -1);
     return 0; 
 }
 
