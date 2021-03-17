@@ -1,2 +1,2 @@
 # FUNC 
-function and inline assembly
+Standard C lib
