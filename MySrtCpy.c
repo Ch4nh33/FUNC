@@ -1,7 +1,7 @@
 #include <stdio.h> 
 #include <string.h>
 
-char *strcpy(char *dest, const char *src);
+char *strcpy(char *dest, const char *src); //string concatenation
 
 int main(void)
 { 
@@ -22,4 +22,4 @@ char *strcpy(char *dest, const char *src)
     }
     dest[i] = '\0';
     return dest;
-}    char buf[10] ={0, };
+}   
